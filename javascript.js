@@ -14,6 +14,6 @@ console.log(myArray);
 */
 
 for (var i = 0; i < 5; i++) {
-    ourArray.push(i);
+    myArray.push(i);
 }
 console.log(myArray);
