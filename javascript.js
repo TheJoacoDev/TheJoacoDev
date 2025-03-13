@@ -11,9 +11,19 @@ while (i < 5) {
 
 console.log(myArray);
 
-*/
+
 
 for (var i = 0; i < 5; i++) {
     myArray.push(i);
 }
-console.log(myArray);
+console.log(myArray);  */
+
+var myArray = [];
+i = 10;
+
+do {
+    myArray.push(i);
+    i++;
+} while (i < 5);
+
+console.log(i, myArray);
